@@ -42,7 +42,7 @@ def log_availability(domain_stats):
     """Log the availability percentage for each domain."""
     for domain, stats in domain_stats.items():
         availability = round(100 * (stats['up'] / stats['total']))
-        logging.info(f"{domain} has {availability}% availability")
+        logging.info(f"{domain} has {availability}% availability percentage")
 
 def monitor_endpoints(file_path, interval):
     """Main function to load endpoints and continuously monitor their health."""
