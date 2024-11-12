@@ -1,16 +1,16 @@
-name: fetch index page
+- name: fetch index page
   url: https://fetch.com/
   headers:
     user-agent: fetch-synthetic-monitor
   method: GET
 
-name: fetch careers page
+- name: fetch careers page
   url: https://fetch.com/careers
   headers:
     user-agent: fetch-synthetic-monitor
   method: GET
 
-name: fetch some fake post endpoint
+- name: fetch some fake post endpoint
   url: https://fetch.com/some/post/endpoint
   headers:
     content-type: application/json
@@ -18,5 +18,5 @@ name: fetch some fake post endpoint
   method: POST
   body: '{"foo":"bar"}'
 
-name: fetch rewards index page
+- name: fetch rewards index page
   url: https://www.fetchrewards.com/
