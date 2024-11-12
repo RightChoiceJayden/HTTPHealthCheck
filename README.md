@@ -26,7 +26,7 @@ Welcome to the HTTP Health Check project! This repository contains a Python-base
 
 # Getting Started
 
-- Download python. If you are having trouble, use the information under the "Install a Python Interpreter" section of [this link]([url](https://code.visualstudio.com/docs/python/python-tutorial))
+- Download python. If you are having trouble, use the information under the "Install a Python Interpreter" section of [this link](https://code.visualstudio.com/docs/python/python-tutorial)
 - Also, install the Python extension found under VS Code > Extensions > "Python" ![Screenshot 2024-11-11 at 6 33 50 PM](https://github.com/user-attachments/assets/a162f272-9fc9-479d-b0b9-e046f6bc796b)
 
 - Note: If you are using an IDE seperate from VS Code please follow the instructions for downloading Python provided in the literature for your IDE.
