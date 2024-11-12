@@ -32,14 +32,24 @@ Welcome to the HTTP Health Check project! This repository contains a Python-base
 - Note: If you are using an IDE seperate from VS Code please follow the instructions for downloading Python provided in the literature for your IDE.
 
   ## Configuration
+  
+- Open the terminal: Go to the top menu, click View > Terminal. This will open a terminal at the bottom of the VS Code window.
+![Screenshot 2024-11-11 at 7 38 17 PM](https://github.com/user-attachments/assets/c915b35b-bd00-421b-a1d8-ec4225c9aa16)
 
-- Create a New Folder by going to Open > New Folder > Create > Open
-  ![Screenshot 2024-11-11 at 6 22 06 PM](https://github.com/user-attachments/assets/fd98fd6d-8943-4fba-8cb6-9b14ce3e8b41)
-![Screenshot 2024-11-11 at 6 25 53 PM](https://github.com/user-attachments/assets/72af1520-7a94-4fde-9dea-db800776e5cc)
-![Screenshot 2024-11-11 at 6 27 34 PM](https://github.com/user-attachments/assets/fcb8ee39-cf0f-4afd-bff4-8d0d7581ef6a)
-![Screenshot 2024-11-11 at 6 28 22 PM](https://github.com/user-attachments/assets/c0287e10-2275-4cb6-b87e-ed7e3aa75062)
+- Clone the repository: In the terminal, enter the following command to clone the repository: git clone https://github.com/RightChoiceJayden/HTTPHealthCheck
+  ![Screenshot 2024-11-11 at 7 41 20 PM](https://github.com/user-attachments/assets/e9a7c23d-770b-4110-bff0-c1541ffbe2ca)
+  - Open the folder:
+ ![Screenshot 2024-11-11 at 7 42 07 PM](https://github.com/user-attachments/assets/b8c9f2e8-bb2f-455a-a80f-80f0b7c26b04)
 
-  - Create a YAML configuration file listing the endpoints you want to monitor. I do this by creating a new file, naming it, and ending it with ".yaml". I gave my .yaml file the name "test.yaml"
-   ![Screenshot 2024-11-11 at 7 06 10 PM](https://github.com/user-attachments/assets/8e3024ce-3017-49d9-84ef-32bea89a94cc)
-![Screenshot 2024-11-11 at 7 02 44 PM](https://github.com/user-attachments/assets/113ed7f3-e72a-469d-bc6c-42d84892244f)
+- Navigate to the Project Directory using the following command: cd HTTPHealthCheck/
+![Screenshot 2024-11-11 at 8 05 32 PM](https://github.com/user-attachments/assets/031b4208-9740-4454-b6a1-1d11263d540f)
+
+  - Run the program using the following command: python3 healthy.py test.yaml
+![Screenshot 2024-11-11 at 8 10 48 PM](https://github.com/user-attachments/assets/51552f00-d3f7-4bb1-a003-6c20a996c8ab)
+
+- Note: If you get any 'ModuleNotFoundError:' messages simply run the command: pip install "module name"
+- As you can see here we had an error concerrning the module "requests" so the command pip install requests is ran
+  
+![Screenshot 2024-11-11 at 8 15 26 PM](https://github.com/user-attachments/assets/e64988ee-8e86-41f1-8d62-adee8b330e37)
+![Screenshot 2024-11-11 at 8 20 53 PM](https://github.com/user-attachments/assets/9b4b9115-3570-48d3-afc4-e30913158df8)
 
